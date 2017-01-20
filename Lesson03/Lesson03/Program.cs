@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpLesson3
+namespace Lesson03
 {
     class Program
     {
