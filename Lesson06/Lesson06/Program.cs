@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpLesson5
+namespace Lesson06
 {
     // A collection is a custom class that holds ints
     // similiar to array but does not have a limit.
