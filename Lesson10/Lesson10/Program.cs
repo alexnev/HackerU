@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 //(2) Primitive variables (int, bool, double, etc.) start with value that equals 0 bits.
 //Non-primitives like objects and array pointers start with the value 'null'.
 //(3) Visual studio has a tool that can search all the programs for comments containing "TODO".
-namespace CSharp10
+namespace Lesson10
 {
     class Canvas
     {
