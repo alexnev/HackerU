@@ -52,6 +52,7 @@ namespace CSharpAdvanced5
     {
         static void Main(string[] args)
         {
+
             Car myCar1;
             myCar1 = new Car();
             //'new' does several things: searches a place in the memory that is
