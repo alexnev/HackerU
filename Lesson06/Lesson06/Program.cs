@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CSharpLesson5
 {
+    // A collection is a custom class that holds ints
+    // similiar to array but does not have a limit.
     class Collection
     {
         int[] nums;
@@ -39,6 +41,7 @@ namespace CSharpLesson5
             }
         }
 
+        // Checks if an index is valid
         void checkIndex(int index)
         {
             if (index >= pos || index < 0)
@@ -47,6 +50,7 @@ namespace CSharpLesson5
             }
         }
 
+        // Returns a num in the index position
         public int Get(int index)
         {
             checkIndex(index);
