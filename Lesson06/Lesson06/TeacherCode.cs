@@ -4,10 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lesson06
+namespace Lesson06Teacher
 {
-
-
     class Collection
     {
         int[] arr;
