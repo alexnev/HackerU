@@ -10,8 +10,7 @@ namespace temp
     {
         static void Main(string[] args)
         {
-            int counter;
-            counter = 19;
+            int counter = 19;            
             float distance = 3.4f;
             long bigNumber = 1231231241234L;
             string firstName = "Elad";
