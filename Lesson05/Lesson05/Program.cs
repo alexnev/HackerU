@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpAdvanced5
+namespace Lesson05
 {
     //trying to use arrays without the problem of the size limit
     //note: in c sharp pointers are named as references    
