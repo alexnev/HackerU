@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Lesson21_MultiThreading
+namespace Lesson21
 {
     class Program
     {

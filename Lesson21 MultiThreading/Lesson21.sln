@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 14 for Windows Desktop
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson21 MultiThreading", "Lesson21 MultiThreading\Lesson21 MultiThreading.csproj", "{F7915E67-18AF-45CA-87E5-CA0EAF796DF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson21", "Lesson21 MultiThreading\Lesson21.csproj", "{F7915E67-18AF-45CA-87E5-CA0EAF796DF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
