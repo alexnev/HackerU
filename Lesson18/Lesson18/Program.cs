@@ -22,7 +22,7 @@ namespace Lesson18
             sensor.listener = police;
             sensor.listener = siren;
             sensor.detectMotion();
-
+            
             //Example of shortened implentation of an object:    
             Car[] cars = {new Car() { model = "Toyota", year = 2013, color = 123456},
                 new Car() {model = "Honda", year=2016, color=1023123} };
