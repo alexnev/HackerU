@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F7915E67-18AF-45CA-87E5-CA0EAF796DF3}</ProjectGuid>
+    <ProjectGuid>{A7DBEEC4-1328-4273-AECE-F7C9455EC5F4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson21_MultiThreading</RootNamespace>
-    <AssemblyName>Lesson21 MultiThreading</AssemblyName>
+    <RootNamespace>Lesson22</RootNamespace>
+    <AssemblyName>Lesson22</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

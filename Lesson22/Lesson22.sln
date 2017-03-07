@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 14 for Windows Desktop
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson21", "Lesson21 MultiThreading\Lesson21.csproj", "{F7915E67-18AF-45CA-87E5-CA0EAF796DF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson22", "Lesson22\Lesson22.csproj", "{A7DBEEC4-1328-4273-AECE-F7C9455EC5F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F7915E67-18AF-45CA-87E5-CA0EAF796DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F7915E67-18AF-45CA-87E5-CA0EAF796DF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F7915E67-18AF-45CA-87E5-CA0EAF796DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F7915E67-18AF-45CA-87E5-CA0EAF796DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7DBEEC4-1328-4273-AECE-F7C9455EC5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7DBEEC4-1328-4273-AECE-F7C9455EC5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7DBEEC4-1328-4273-AECE-F7C9455EC5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7DBEEC4-1328-4273-AECE-F7C9455EC5F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
