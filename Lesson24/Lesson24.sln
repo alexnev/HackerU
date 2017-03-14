@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson24 - Client", "Lesson24\Lesson24 - Client.csproj", "{FCE852D5-D9DE-4B5D-921B-B8F6C47F4896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson24 - Server", "Lesson24 - Server\Lesson24 - Server.csproj", "{FA57F158-856B-4999-8E21-713097373319}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCE852D5-D9DE-4B5D-921B-B8F6C47F4896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCE852D5-D9DE-4B5D-921B-B8F6C47F4896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCE852D5-D9DE-4B5D-921B-B8F6C47F4896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCE852D5-D9DE-4B5D-921B-B8F6C47F4896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA57F158-856B-4999-8E21-713097373319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA57F158-856B-4999-8E21-713097373319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA57F158-856B-4999-8E21-713097373319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA57F158-856B-4999-8E21-713097373319}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
