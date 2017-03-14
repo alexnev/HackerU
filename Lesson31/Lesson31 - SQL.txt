@@ -1,0 +1,29 @@
+--SELECT CompanyName, Quantity FROM (SELECT CustomerID, COUNT(*) AS Quantity FROM Orders
+--WHERE Freight < 10
+--GROUP BY CustomerID) AS CustomersOrders
+--INNER JOIN Customers ON CustomersOrders.CustomerID =  Customers.CustomerID;
+
+--SELECT CompanyName FROM Customers LEFT OUTER JOIN 
+--(SELECT DISTINCT CustomerID FROM Orders) AS CustomersWithOrders
+--ON Customers.CustomerID = CustomersWithOrders.CustomerID
+--WHERE CustomersWithOrders.CustomerID IS NULL;
+
+--SELECT CompanyName FROM Customers WHERE CustomerID NOT IN 
+--(SELECT DISTINCT CustomerID FROM Orders);
+
+--SELECT AVG(Freight) AS AvgFreight FROM Orders;
+
+--SELECT SUM(Freight) AS [Total Freight] FROM Orders;
+
+--SELECT MAX(Freight) AS MaxFreight FROM Orders;
+
+--SELECT TOP 50 * FROM Orders ORDER BY ShippedDate DESC;
+
+--SELECT ProductID, UnitPrice*Quantity*(1-Discount) AS Paid FROM [Order Details];
+
+
+1)find the customer with the largest sum of freights
+
+2)Which Client paid the the most for products not counting freight costs
+
+*3)Find the third most spending customer
