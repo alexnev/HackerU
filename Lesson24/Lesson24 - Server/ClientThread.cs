@@ -134,6 +134,9 @@ namespace Lesson24___Server
             if (u == null)
                 return;
             bool success = false;
+            // The paramater inside the lock paranthesis does not matter as long as it points to an existing object.
+            //  for example: "Dog" or "Person" could also work.
+            // Important: Write as little as possible inside the lock scope, also don't open client connections.
             lock (users)
             {
                 if (!users.ContainsKey(u.userName))

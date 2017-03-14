@@ -25,6 +25,7 @@ namespace Lesson24
             bool go = true;
             byte[] userNameAndPasswordBytes = null;
 
+            #region getting messages from the server
             Thread getMessagesThread = new Thread(() =>
             {
                 while (go)
@@ -80,9 +81,9 @@ namespace Lesson24
                     Console.ForegroundColor = ConsoleColor.White;
                 }
             });
-
+            #endregion
             Console.WriteLine("Welcome to BetterThanWhatsapp Chat.");
-
+            #region Login/Signup
             int loginOrSignUp = 0;
             do
             {
@@ -109,8 +110,9 @@ namespace Lesson24
                 getMessagesThread.Interrupt();
                 return;
             }
+            #endregion
 
-
+            #region Sending user name and password to the server
             TcpClient tcpClient = null;
             NetworkStream networkStream = null;
             while (true)
@@ -173,7 +175,9 @@ namespace Lesson24
                         tcpClient.Close();
                 }
             }
+            #endregion
 
+            #region sending messages to the server
             getMessagesThread.Start();
             Console.WriteLine("you are now logged in.");
             Console.WriteLine("type in your message and hit enter");
@@ -207,8 +211,9 @@ namespace Lesson24
                 }
 
             } while (true);
+            #endregion
 
-            go = false;
+            go = false; //Closes the thread that gets messages from the server
             getMessagesThread.Interrupt();//takes the thread out of "sleep" state
         }
     }
